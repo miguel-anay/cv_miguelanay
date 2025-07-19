@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  portfolio:
+    container_name: portfolio-app
+    image: miguelan/portfolio:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
