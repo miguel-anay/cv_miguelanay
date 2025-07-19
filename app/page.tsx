@@ -41,8 +41,8 @@ export default function Home() {
       <main className="max-w-5xl mx-auto px-6">
         {/* Hero Section */}
         <section className="mb-20 text-zinc-800 dark:text-zinc-200">
-          <h1 className="text-3xl font-bold mb-4">Sobre mí</h1>
-          <p className="text-lg leading-relaxed tracking-wide">
+          <h1 className="text-4xl font-bold mb-4">Sobre mí</h1>
+          <p className=" tracking-wide">
             Ingeniero Industrial y empresario con especialización sólida en
             desarrollo web. Más de 12 años de experiencia en empresas como
             <strong className="text-blue-600 dark:text-blue-400">
@@ -268,7 +268,7 @@ export default function Home() {
           </div>
         </section>
         <section className="max-w-5xl mx-auto px-6 mb-16">
-          <h2 className="text-2xl font-semibold text-zinc-800 dark:text-zinc-100 mb-10">
+          <h2 className="text-3xl font-semibold text-zinc-800 dark:text-zinc-100 mb-10">
             Experiencia
           </h2>
 
