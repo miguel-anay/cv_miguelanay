@@ -113,15 +113,21 @@ export default function Home() {
 
               <div className="flex gap-3 items-center">
                 <img
-                  src="https://ext.same-assets.com/2298632013/2447866119.svg"
+                  src="/assets/reactjs.png"
                   alt="React Logo"
                   className="w-6 h-6"
                   title="React"
                 />
                 <img
-                  src="https://ext.same-assets.com/2298632013/4205843224.svg"
-                  alt=".NET Logo"
-                  className="w-6 h-6"
+                  src="/assets/nodejs.png"
+                  alt="nodejs Logo"
+                  className="w-8 h-8"
+                  title=".NET"
+                />
+                <img
+                  src="/assets/docker.png"
+                  alt="docker Logo"
+                  className="w-8 h-8"
                   title=".NET"
                 />
               </div>
@@ -159,16 +165,28 @@ export default function Home() {
 
               <div className="flex gap-3 items-center">
                 <img
-                  src="https://ext.same-assets.com/2298632013/2447866119.svg"
+                  src="/assets/reactjs.png"
                   alt="React Logo"
                   className="w-6 h-6"
                   title="React"
                 />
                 <img
-                  src="https://ext.same-assets.com/2298632013/4205843224.svg"
-                  alt=".NET Logo"
-                  className="w-6 h-6"
-                  title=".NET"
+                  src="/assets/nodejs.png"
+                  alt="nodejs Logo"
+                  className="w-8 h-8"
+                  title="nodejs"
+                />
+                <img
+                  src="/assets/docker.png"
+                  alt="docker Logo"
+                  className="w-8 h-8"
+                  title="docker"
+                />
+                <img
+                  src="/assets/aws.png"
+                  alt="aws Logo"
+                  className="w-8 h-8"
+                  title=".ws"
                 />
               </div>
             </div>
@@ -205,16 +223,16 @@ export default function Home() {
 
               <div className="flex gap-3 items-center">
                 <img
-                  src="https://ext.same-assets.com/2298632013/2447866119.svg"
-                  alt="React Logo"
+                  src="/assets/vue.png"
+                  alt="vue Logo"
                   className="w-6 h-6"
                   title="React"
                 />
                 <img
-                  src="https://ext.same-assets.com/2298632013/4205843224.svg"
-                  alt=".NET Logo"
-                  className="w-6 h-6"
-                  title=".NET"
+                  src="/assets/python.png"
+                  alt="python Logo"
+                  className="w-8 h-8"
+                  title="python"
                 />
               </div>
             </div>
@@ -252,16 +270,28 @@ export default function Home() {
 
               <div className="flex gap-3 items-center">
                 <img
-                  src="https://ext.same-assets.com/2298632013/2447866119.svg"
-                  alt="React Logo"
+                  src="/assets/vue.png"
+                  alt="vue Logo"
                   className="w-6 h-6"
-                  title="React"
+                  title="vue"
                 />
                 <img
-                  src="https://ext.same-assets.com/2298632013/4205843224.svg"
-                  alt=".NET Logo"
+                  src="/assets/php.png"
+                  alt="php Logo"
                   className="w-6 h-6"
-                  title=".NET"
+                  title="php"
+                />
+                <img
+                  src="/assets/composer.png"
+                  alt="composer Logo"
+                  className="w-6 h-6"
+                  title="composer"
+                />
+                <img
+                  src="/assets/mariadb.png"
+                  alt="mariadb Logo"
+                  className="w-6 h-6"
+                  title="mariadb"
                 />
               </div>
             </div>
