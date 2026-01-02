@@ -11,8 +11,7 @@ export default function Home() {
         <nav className="flex items-center justify-between">
           <Link
             href="/"
-            className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-600 drop-shadow-sm hover:brightness-110 transition-all"
-          >
+            className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-600 drop-shadow-sm hover:brightness-110 transition-all">
             Miguel-anay.nom.pe
             <span className="block text-sm text-zinc-500 dark:text-zinc-400 font-normal">
               Ing.Anay Gomez,Miguel Angel
@@ -22,8 +21,7 @@ export default function Home() {
           <div className="flex items-center gap-8">
             <Link
               href="/"
-              className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
-            >
+              className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
               Inicio
             </Link>
             {/* <Link
@@ -43,8 +41,10 @@ export default function Home() {
         <section className="mb-20 text-zinc-800 dark:text-zinc-200">
           <h1 className="text-4xl font-bold mb-4">Sobre mí</h1>
           <p className=" tracking-wide">
-            Ingeniero Industrial y empresario con especialización sólida en
-            desarrollo web. Más de 12 años de experiencia en empresas como
+            Full Stack Developer, DevOps e Ingeniero en IA con especialización
+            en desarrollo web e inteligencia artificial. CEO de Yiwu Import
+            Corporation, implementando tecnologías disruptivas para Pymes. Más
+            de 12 años de experiencia en empresas como
             <strong className="text-blue-600 dark:text-blue-400">
               {" "}
               Encora
@@ -57,8 +57,7 @@ export default function Home() {
             , participando en proyectos de alto impacto para el sector
             financiero y corporativo. Especialista en{" "}
             <span className="font-medium text-blue-600 dark:text-blue-400">
-              React, JavaScript,NEXTJS, .NET , SQL,Pyhon,PHP artisan,
-              Wordpress,N8N
+              NEXTJS, C#.NET,Pyhon,LangChain, AWS, Azure, Docker, Kubernetes
             </span>
             , enfocado en construir soluciones seguras, escalables y orientadas
             al usuario. Me apasiona trabajar en equipo, liderar iniciativas
@@ -101,8 +100,7 @@ export default function Home() {
                   href="https://enlinea.profuturo.com.pe/agenciavirtual/#/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block hover:opacity-90 transition-opacity duration-200"
-                >
+                  className="block hover:opacity-90 transition-opacity duration-200">
                   <img
                     src="/agencia_virtual.png"
                     alt="Captura de Agencia Virtual"
@@ -153,8 +151,7 @@ export default function Home() {
                   href="https://claveweb.profuturo.com.pe/#/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block hover:opacity-90 transition-opacity duration-200"
-                >
+                  className="block hover:opacity-90 transition-opacity duration-200">
                   <img
                     src="/claveweb.png"
                     alt="Captura de Clave Web"
@@ -211,8 +208,7 @@ export default function Home() {
                   href="https://www.disfrutaprofuturo.com.pe/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block hover:opacity-90 transition-opacity duration-200"
-                >
+                  className="block hover:opacity-90 transition-opacity duration-200">
                   <img
                     src="/disfruta.png"
                     alt="Captura de Disfruta Profuturo"
@@ -258,8 +254,7 @@ export default function Home() {
                   href="https://factufacil.pe/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block hover:opacity-90 transition-opacity duration-200"
-                >
+                  className="block hover:opacity-90 transition-opacity duration-200">
                   <img
                     src="/factufacil.png"
                     alt="Captura de FactuFacil"
@@ -303,6 +298,62 @@ export default function Home() {
           </h2>
 
           <ol className="relative border-s border-zinc-200 dark:border-zinc-700">
+            {/* EXPERIENCIA 0*/}
+            <li className="mb-10 ms-4">
+              <div className="absolute w-3 h-3 bg-blue-600 rounded-full mt-1.5 -start-1.5 border border-white dark:border-zinc-900" />
+              <time className="mb-1 text-sm font-normal leading-none text-zinc-500 dark:text-zinc-400">
+                Abril 2025 - Actual
+              </time>
+              <h3 className="text-lg font-semibold text-zinc-900 dark:text-white">
+                CEO and Full Stack Developer
+              </h3>
+              <div>
+                <p className="text-sm text-zinc-500 dark:text-zinc-300 mb-1">
+                  Yiwu Import Corporation ↗{" "}
+                  <Link
+                    href="/TRABAJO/ENCORA.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm"></Link>
+                </p>
+                <Image
+                  src="/LogoFactu.png"
+                  alt="Encora Company Logo"
+                  width={100}
+                  height={50}
+                  className="w-24 h-auto mb-4"></Image>
+              </div>
+              <p>Tecnologías: React.js, Nextjs, Vue,Dockerm,Angular</p>
+              <br></br>{" "}
+              <ul className="list-disc pl-5 space-y-2 text-zinc-600 dark:text-zinc-300 text-sm">
+                <li>
+                  <strong>FactuFacil:</strong>Web de facturación electrónica,
+                  que funciona como un sistema Headless para integrarse
+                  fácilmente con otros softwares como YAPE-CHECK, AGENTES IA, La
+                  plataforma incluye todos los módulos esenciales, como Compras,
+                  Ventas y Contabilidad, y ofrece conexión directa con SUNAT,
+                  facilitando la gestión administrativa y contable de manera
+                  eficiente y segura.
+                </li>
+                <li>
+                  <strong>YAPE-CHECK:</strong> APK encargada de la verificación
+                  de pagos realizados a través de YAPE, permitiendo a los
+                  comerciantes validar transacciones de manera rápida y segura.
+                </li>
+                <li>
+                  <strong>YUPI.PE y Agentes:</strong> Yupi.pe y Agentes es una
+                  plataforma web dedicada a compras conjuntas a importadoras que
+                  venden al por mayor. Su objetivo es permitir que pymes y
+                  personas naturales puedan acceder a precios de compra por
+                  caja, facilitando la adquisición de productos al por mayor de
+                  manera simple y accesible. Además, el uso de agentes permite
+                  consultar los productos disponibles, buscar artículos en el
+                  mercado y gestionar tanto las compras como las consultas de
+                  manera eficiente
+                </li>
+              </ul>
+            </li>
+
             {/* EXPERIENCIA 1 */}
             <li className="mb-10 ms-4">
               <div className="absolute w-3 h-3 bg-blue-600 rounded-full mt-1.5 -start-1.5 border border-white dark:border-zinc-900" />
@@ -319,8 +370,7 @@ export default function Home() {
                     href="/TRABAJO/ENCORA.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm"
-                  >
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     📄 Descargar certificado
                   </Link>
                 </p>
@@ -329,8 +379,7 @@ export default function Home() {
                   alt="Encora Company Logo"
                   width={100}
                   height={50}
-                  className="w-24 h-auto mb-4"
-                ></Image>
+                  className="w-24 h-auto mb-4"></Image>
               </div>
               <p>Tecnologías: React.js, Nextjs, Vue,Dockerm,Angular</p>
               <br></br>{" "}
@@ -378,8 +427,7 @@ export default function Home() {
                     href="/TRABAJO/prosegur_certificado.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm"
-                  >
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     📄 Descargar certificado
                   </Link>
                 </p>
@@ -388,8 +436,7 @@ export default function Home() {
                   alt="Encora Company Logo"
                   width={100}
                   height={50}
-                  className="w-24 h-auto mb-4"
-                ></Image>
+                  className="w-24 h-auto mb-4"></Image>
               </div>
               <p>
                 Tecnologías: React.js, PHP Laravel, MySQL, SQL Server, Android
@@ -445,8 +492,7 @@ export default function Home() {
                     href="/TRABAJO/Medios_Industriales.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm"
-                  >
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     📄 Descargar certificado
                   </Link>
                 </p>
@@ -456,8 +502,7 @@ export default function Home() {
                   alt="Encora Company Logo"
                   width={100}
                   height={50}
-                  className="w-24 h-auto mb-4"
-                ></Image>
+                  className="w-24 h-auto mb-4"></Image>
               </div>
               <p>
                 Tecnologías: React.js, PHP Laravel, MySQL, SQL Server, Android
@@ -504,6 +549,14 @@ export default function Home() {
               <p className="text-sm text-zinc-500 dark:text-zinc-400">
                 Ingeniero Industrial (2004 – 2012) CIP:301084
               </p>
+              <br></br>
+              <h3 className="text-lg font-bold text-zinc-900 dark:text-white">
+                Universidad Privada del Norte
+              </h3>
+              <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                Diplomado de Gerencia de TI con Meción en Disrupción Tecnologica
+                (01/2025 - 09/2025)
+              </p>
             </div>
 
             {/* Especialización */}
@@ -511,44 +564,105 @@ export default function Home() {
               <h3 className="text-lg font-bold text-zinc-900 dark:text-white mb-2">
                 Especialización Técnica
               </h3>
+              <h5 className="text-md font-bold text-zinc-900 dark:text-white mb-2">
+                Software Developer FullStack
+              </h5>
               <ul className="list-disc list-inside text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
                 <li>
-                  <span className="font-medium">Módulo de Base de Datos:</span>{" "}
-                  Administración de SQL Server
+                  <span className="font-medium">
+                    Arquitectura Hexagonal C#.net – Technical Track
+                  </span>{" "}
+                  <strong>( 8.5 horas)</strong>
                   <br />
                   <Link
-                    href="/ESTUDIO/db_data.pdf"
+                    href="/ESTUDIO/Hexagonal_C.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm"
-                  >
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     📄 Descargar certificado
                   </Link>
                 </li>
+                <li>
+                  <span className="font-medium">Visual Basic.Net</span>
+                  <strong>(48 horas)</strong>
+                  <br />
+                  <Link
+                    href="/ESTUDIO/visual_basic_NET.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                    📄 Descargar certificado
+                  </Link>
+                </li>
+              </ul>
+              <br />
+              <br />
+              <h2 className="text-md font-bold text-zinc-900 dark:text-white mb-2">
+                Data Engineer
+              </h2>
+              <ul className="list-disc list-inside text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
+                <li>
+                  <span className="font-medium">Módulo de Base de Datos:</span>{" "}
+                  Administración de SQL Server <strong>( 96 horas)</strong>
+                  <br />
+                  <Link
+                    href="/ESTUDIO/data_base_administrator.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                    📄 Descargar certificado
+                  </Link>
+                </li>
+                <li>
+                  <span className="font-medium">Módulo:</span> Experto en
+                  Business Intelligence
+                  <strong>( 48 horas)</strong>
+                  <br />
+                  <Link
+                    href="/ESTUDIO/business_intelligence.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                    📄 Descargar certificado
+                  </Link>
+                </li>
+              </ul>
+              <br />
+              <br />
+              <h2 className="text-md font-bold text-zinc-900 dark:text-white mb-2">
+                Data Science
+              </h2>
+              <ul className="list-disc list-inside text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
                 <li>
                   <span className="font-medium">
                     Gen AI Training Path – Technical Track
                   </span>
+                  <strong>( 60 horas)</strong>
                   <br />
+
                   <Link
                     href="https://www.credly.com/badges/c4c59c1f-de34-47e4-b2c1-7ca90ee3403b/linked_in?t=stx5in"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm"
-                  >
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     📄 Descargar certificado
                   </Link>
                 </li>
-
+              </ul>
+              <br /> <br />
+              <h2 className="text-md font-bold text-zinc-900 dark:text-white mb-2">
+                Ingeniero Devops
+              </h2>
+              <ul className="list-disc list-inside text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
                 <li>
-                  <span className="font-medium">AZURE FUNDAMENTS AZ-900</span>
+                  <span className="font-medium">AZURE FUNDAMENTS AZ-900</span>{" "}
+                  <strong>( 9 horas)</strong>
                   <br />
                   <Link
                     href="/ESTUDIO/Azure.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm"
-                  >
+                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     📄 Descargar certificado
                   </Link>
                 </li>
@@ -563,8 +677,7 @@ export default function Home() {
         <div className="flex items-center justify-between">
           <Link
             href="https://www.linkedin.com/in/miguel-anay/"
-            className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
-          >
+            className="text-blue-600 dark:text-blue-400 hover:underline font-medium">
             LinkedIn: miguel-anay/
           </Link>
 
