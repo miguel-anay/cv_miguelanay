@@ -661,7 +661,7 @@ export default function Home() {
                       Experto en Business Intelligence
                     </h5>
                     <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
-                      Institución de Formación Especializada - Módulo
+                      Sistemas UNI - Módulo de Base de Datos
                     </p>
                     <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
                       Febrero 2016 • 48 horas
@@ -706,10 +706,10 @@ export default function Home() {
                   {/* Curso 2 */}
                   <div className="pl-4 border-l-2 border-blue-500 dark:border-blue-400">
                     <h5 className="font-semibold text-zinc-900 dark:text-white">
-                      Cursera Gen AI Training Path
+                      Gen AI Training Path
                     </h5>
                     <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
-                      Technical Track - AI Certification
+                      Coursera Technical Track - AI Certification
                     </p>
                     <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
                       Marzo 2025 • 60 horas
