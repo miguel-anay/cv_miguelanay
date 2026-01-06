@@ -561,112 +561,197 @@ export default function Home() {
 
             {/* Especialización */}
             <div className="border border-zinc-200 dark:border-zinc-700 rounded-xl p-5 bg-white dark:bg-zinc-900 shadow-sm">
-              <h3 className="text-lg font-bold text-zinc-900 dark:text-white mb-2">
+              <h3 className="text-lg font-bold text-zinc-900 dark:text-white mb-6">
                 Especialización Técnica
               </h3>
-              <h5 className="text-md font-bold text-zinc-900 dark:text-white mb-2">
-                Software Developer FullStack
-              </h5>
-              <ul className="list-disc list-inside text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
-                <li>
-                  <span className="font-medium">
-                    Arquitectura Hexagonal C#.net – Technical Track
-                  </span>{" "}
-                  <strong>( 8.5 horas)</strong>
-                  <br />
-                  <Link
-                    href="/ESTUDIO/Hexagonal_C.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
-                    📄 Descargar certificado
-                  </Link>
-                </li>
-                <li>
-                  <span className="font-medium">Visual Basic.Net</span>
-                  <strong>(48 horas)</strong>
-                  <br />
-                  <Link
-                    href="/ESTUDIO/visual_basic_NET.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
-                    📄 Descargar certificado
-                  </Link>
-                </li>
-              </ul>
-              <br />
-              <br />
-              <h2 className="text-md font-bold text-zinc-900 dark:text-white mb-2">
-                Data Engineer
-              </h2>
-              <ul className="list-disc list-inside text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
-                <li>
-                  <span className="font-medium">Módulo de Base de Datos:</span>{" "}
-                  Administración de SQL Server <strong>( 96 horas)</strong>
-                  <br />
-                  <Link
-                    href="/ESTUDIO/data_base_administrator.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
-                    📄 Descargar certificado
-                  </Link>
-                </li>
-                <li>
-                  <span className="font-medium">Módulo:</span> Experto en
-                  Business Intelligence
-                  <strong>( 48 horas)</strong>
-                  <br />
-                  <Link
-                    href="/ESTUDIO/business_intelligence.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
-                    📄 Descargar certificado
-                  </Link>
-                </li>
-              </ul>
-              <br />
-              <br />
-              <h2 className="text-md font-bold text-zinc-900 dark:text-white mb-2">
-                Data Science
-              </h2>
-              <ul className="list-disc list-inside text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
-                <li>
-                  <span className="font-medium">
-                    Gen AI Training Path – Technical Track
-                  </span>
-                  <strong>( 60 horas)</strong>
-                  <br />
 
-                  <Link
-                    href="https://www.credly.com/badges/c4c59c1f-de34-47e4-b2c1-7ca90ee3403b/linked_in?t=stx5in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
-                    📄 Descargar certificado
-                  </Link>
-                </li>
-              </ul>
-              <br /> <br />
-              <h2 className="text-md font-bold text-zinc-900 dark:text-white mb-2">
-                Ingeniero Devops
-              </h2>
-              <ul className="list-disc list-inside text-sm text-zinc-700 dark:text-zinc-300 space-y-1">
-                <li>
-                  <span className="font-medium">AZURE FUNDAMENTS AZ-900</span>{" "}
-                  <strong>( 9 horas)</strong>
-                  <br />
-                  <Link
-                    href="/ESTUDIO/Azure.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mt-1 text-blue-600 dark:text-blue-400 hover:underline text-sm">
-                    📄 Descargar certificado
-                  </Link>
-                </li>
-              </ul>
+              {/* Software Developer FullStack */}
+              <div className="mb-8">
+                <h4 className="text-base font-bold text-blue-600 dark:text-blue-400 mb-4 pb-2 border-b border-zinc-200 dark:border-zinc-700">
+                  Software Developer FullStack
+                </h4>
+                <div className="space-y-4">
+                  {/* Curso 1 */}
+                  <div className="pl-4 border-l-2 border-blue-500 dark:border-blue-400">
+                    <h5 className="font-semibold text-zinc-900 dark:text-white">
+                      Arquitectura Hexagonal C#.net – Technical Track
+                    </h5>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                      Technical Track
+                    </p>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+                      Octubre 2025 • 8.5 horas
+                    </p>
+                    <Link
+                      href="/ESTUDIO/Hexagonal_C.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 dark:text-blue-400 hover:underline">
+                      📄 Descargar certificado
+                    </Link>
+                  </div>
+
+                  {/* Curso 2 */}
+                  <div className="pl-4 border-l-2 border-blue-500 dark:border-blue-400">
+                    <h5 className="font-semibold text-zinc-900 dark:text-white">
+                      Visual Basic.Net
+                    </h5>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                      Institución de Formación Técnica
+                    </p>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+                      Septiembre 2011 • 48 horas
+                    </p>
+                    <Link
+                      href="/ESTUDIO/visual_basic_NET.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 dark:text-blue-400 hover:underline">
+                      📄 Descargar certificado
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* Data Engineer */}
+              <div className="mb-8">
+                <h4 className="text-base font-bold text-blue-600 dark:text-blue-400 mb-4 pb-2 border-b border-zinc-200 dark:border-zinc-700">
+                  Data Engineer
+                </h4>
+                <div className="space-y-4">
+                  {/* Curso 1 */}
+                  <div className="pl-4 border-l-2 border-blue-500 dark:border-blue-400">
+                    <h5 className="font-semibold text-zinc-900 dark:text-white">
+                      Advanced Data Engineer
+                    </h5>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                      DMC Instituto - Diplomado
+                    </p>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+                      Septiembre 2025 - Actual • 144 horas
+                    </p>
+                    <span className="inline-flex items-center gap-1 mt-2 text-sm text-zinc-400 dark:text-zinc-500">
+                      📄 Certificado en proceso
+                    </span>
+                  </div>
+
+                  {/* Curso 2 */}
+                  <div className="pl-4 border-l-2 border-blue-500 dark:border-blue-400">
+                    <h5 className="font-semibold text-zinc-900 dark:text-white">
+                      Administración de SQL Server
+                    </h5>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                      Sistemas UNI - Módulo de Base de Datos
+                    </p>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+                      Junio 2015 • 96 horas
+                    </p>
+                    <Link
+                      href="/ESTUDIO/data_base_administrator.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 dark:text-blue-400 hover:underline">
+                      📄 Descargar certificado
+                    </Link>
+                  </div>
+
+                  {/* Curso 3 */}
+                  <div className="pl-4 border-l-2 border-blue-500 dark:border-blue-400">
+                    <h5 className="font-semibold text-zinc-900 dark:text-white">
+                      Experto en Business Intelligence
+                    </h5>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                      Institución de Formación Especializada - Módulo
+                    </p>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+                      Febrero 2016 • 48 horas
+                    </p>
+                    <Link
+                      href="/ESTUDIO/business_intelligence.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 dark:text-blue-400 hover:underline">
+                      📄 Descargar certificado
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* Data Science */}
+              <div className="mb-8">
+                <h4 className="text-base font-bold text-blue-600 dark:text-blue-400 mb-4 pb-2 border-b border-zinc-200 dark:border-zinc-700">
+                  Data Science
+                </h4>
+                <div className="space-y-4">
+                  {/* Curso 1 */}
+                  <div className="pl-4 border-l-2 border-blue-500 dark:border-blue-400">
+                    <h5 className="font-semibold text-zinc-900 dark:text-white">
+                      Python Data Science
+                    </h5>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                      DSRP Certification Program
+                    </p>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+                      Octubre 2025 • 20 horas
+                    </p>
+                    <Link
+                      href="/ESTUDIO/Certificate_Python_Data_Scientist.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 dark:text-blue-400 hover:underline">
+                      📄 Descargar certificado
+                    </Link>
+                  </div>
+
+                  {/* Curso 2 */}
+                  <div className="pl-4 border-l-2 border-blue-500 dark:border-blue-400">
+                    <h5 className="font-semibold text-zinc-900 dark:text-white">
+                      Cursera Gen AI Training Path
+                    </h5>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                      Technical Track - AI Certification
+                    </p>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+                      Marzo 2025 • 60 horas
+                    </p>
+                    <Link
+                      href="https://www.credly.com/badges/c4c59c1f-de34-47e4-b2c1-7ca90ee3403b/linked_in?t=stx5in"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 dark:text-blue-400 hover:underline">
+                      📄 Ver certificado en Credly
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* Ingeniero DevOps */}
+              <div>
+                <h4 className="text-base font-bold text-blue-600 dark:text-blue-400 mb-4 pb-2 border-b border-zinc-200 dark:border-zinc-700">
+                  Ingeniero DevOps
+                </h4>
+                <div className="space-y-4">
+                  {/* Curso 1 */}
+                  <div className="pl-4 border-l-2 border-blue-500 dark:border-blue-400">
+                    <h5 className="font-semibold text-zinc-900 dark:text-white">
+                      Azure Fundamentals AZ-900
+                    </h5>
+                    <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+                      Udemy-Microsoft Azure Certification
+                    </p>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
+                      Noviembre 2024 • 9 horas
+                    </p>
+                    <Link
+                      href="/ESTUDIO/Azure.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 dark:text-blue-400 hover:underline">
+                      📄 Descargar certificado
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
